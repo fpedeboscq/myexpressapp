@@ -1,0 +1,13 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}",
+        ".env",
+        "test{,/**}"
+    ],
+    "appService.deploySubpath": ".",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "appService.defaultWebAppToDeploy": "/subscriptions/65bfbb36-826e-49fd-b39a-e5a242833a18/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/gatsby-lemon",
+}
